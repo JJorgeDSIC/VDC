@@ -1,0 +1,33 @@
+Alemania,1.131,2.208
+Austria,98,222
+Bélgica,606,736
+Bulgaria,26,14
+Chipre,23,21
+Croacia,-,11
+Dinamarca,60,102
+Eslovenia,92,117
+Estonia,19,23
+Finlandia,17,46
+Francia,1.744,2.905
+Grecia,46,38
+Holanda,390,432
+Hungría,21,25
+Irlanda,333,431
+Italia,627,566
+Letonia,64,21
+Lituania,32,12
+Luxemburgo,59,84
+Malta,63,55
+Polonia,121,80
+Portugal,220,261
+Reino Unido,2.339,2.904
+República Checa,80,131
+República Eslovaca,9,13
+Rumanía,68,13
+Suecia,54,140
+Andorra,486,385
+Federación de Rusia,81,100
+Noruega,81,233
+Serbia,21,10
+Suiza,1.090,1.817
+Ucrania,55,20
