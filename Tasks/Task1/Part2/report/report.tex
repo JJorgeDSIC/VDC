@@ -25,23 +25,46 @@
 
 \section{Motivación}
 
-En esta tarea se desea seleccionar un conjunto de datos de acceso abierto para llevar a cabo una visualización de los mismos. De entre las fuentes proporcionadas, se ha seleccionado...
+En esta tarea se desea seleccionar un conjunto de datos de acceso abierto para llevar a cabo una visualización de los mismos. 
+
+De entre las diferentes fuentes de datos abiertas, se ha seleccionado un conjunto de datos denominado ``Movimientos Turísticos en Fronteras
+Resultados nacionales'' obtenido desde el Instituto Nacional de Estadística (\url{http:/www.ine.es}). Este conjunto muestra para dos años dados, concretamente el año 2000 y el 2016, el número de visitantes que España ha recibido desde los países de la Unión Europea. 
+
+Considerando que el turismo es un motor importante de la economía nacional, la idea es mostrar la variación tras este periodo para poder determinar hacia qué tipo de ciudadano de la UE debería de encaminarse, por ejemplo, la estrategia de \textit{marketing} de un hotel.
+
+\section{Metodología}
+
+Para la visualización de este conjunto de datos, hemos detectado las siguientes características:
 
 \begin{itemize}
 	\item Variable independiente: País de origen (Ordenado-Discreto-Nominal).
 	\item Variable dependiente: Viajeros entrados (por país de residencia)(Ordenado-Discreto-Cardinal).
-	\item Uso de glifos: Geometría de los paises.
-	\item Variación de la posición: Mapeado sobre el mapa político.
-	\item Variación de la saturación del color: Número de personas. (?)
 \end{itemize} 
 
+Con la presente naturaleza de los datos, se ha planteado una primera aproximación interactiva donde se reflejan:
 
+\begin{itemize}
+	\item Uso de glifos: Geometría de los países.
+	\item Variación de la posición para la variable ``País'' sobre el mapa político.
+	\item Variación de la saturación del color para la variable ``Viajeros''.
+\end{itemize}
 
-\section{Experimentación y resultados}
+Sin embargo, pese a la interactividad y atractivo\footnote{La primera versión se encuentra tras este enlace: \url{http://vdc.jjorge.es/Travelings_old.html}}, este tipo de visualización ha añadido una complejidad innecesaria para alcanzar el objetivo de la misma, por lo tanto, siguiendo las recomendaciones vistas en teoría basadas en ``el ahorro de tinta'', se ha decidido pivotar hacia un clásico diagrama de barras, con cierta interacción, pero que simplifica la visualización de la información.
+
+Como se ha visto en clase, este tipo de diagramas son adecuados para las variables consideradas, dada su naturaleza cuantitativa y discreta. En este caso, el color queda en segundo plano, y se han escogido simplemente dos colores arbitrarios que contrasten lo suficiente para no dar pie a confusión.
+
+A continuación se muestra el gráfico estático, el cual puede consultarse de forma interactiva en el siguiente enlace: \url{http://vdc.jjorge.es/Travelings.html)}.
+
+\begin{figure}[ht!]
+	\centering
+	\includegraphics[width=\columnwidth]{imgs/bar}
+	\label{fig:datos}
+	\caption{Visitantes por país de residencia para el año 2000 y el año 2016.}
+\end{figure}
 
 \section{Conclusión}
 
-
+A la vista del diagrama, parece que una campaña orientada hacia el mercado británico sería actualmente la más interesante, considerando que conforman más del 25\% de visitantes totales y se ha incrementado su presencia en cerca de 3\%. Por otro lado, los visitantes alemanes se han reducido en aproximadamente 6 puntos porcentuales. Considerando solamente dos puntos no podemos hablar sobre tendencia, pero estos valores deberían ser tomados en consideración.
 
 
 \end{document}
